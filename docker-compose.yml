@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  backend:
+    image: node:10.20.1
+    volumes:
+      - ./:./
+    ports:
+      - 3333:3333
+    command: bash -c "yarn install && yarn start"
