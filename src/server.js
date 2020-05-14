@@ -1,5 +1,6 @@
 import app from './app';
+import port from './config/env';
 
-app.listen(3333, () => {
-  console.log('Executando na porta 3333');
+app.listen(port, () => {
+  console.log(`Executando na porta ${port}`);
 });

@@ -4,3 +4,4 @@ yarn-error.log
 .vscode/
 src/config/auth.js
 src/config/database.js
+src/config/env.js
